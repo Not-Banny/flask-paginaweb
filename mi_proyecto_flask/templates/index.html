@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>QM Bradly</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>¡Bienvenido a mi página Flask!</h1>
+        <p>Este sitio fue creado como parte de una tarea escolar para aprender sobre Flask, HTML y despliegue web.</p>
+
+        <h2>Imagen de ejemplo</h2>
+        <img src="{{ url_for('static', filename='img/ejemplo.jpg') }}" alt="Imagen decorativa">
+
+        <h2>Enlaces útiles</h2>
+        <ul>
+            <li><a href="https://flask.palletsprojects.com/">Documentación de Flask</a></li>
+            <li><a href="https://render.com/">Sitio oficial de Render</a></li>
+        </ul>
+
+        <h2>Sobre esta página</h2>
+        <p>Usé etiquetas HTML como títulos, párrafos, listas, imágenes y enlaces. Además, le di un estilo moderno usando CSS para que se vea más profesional.</p>
+
+        <footer>
+            &copy; 2025 - Sitio creado por Banny 💻 
+        </footer>
+    </div>
+</body>
+</html>
